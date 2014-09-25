@@ -29,7 +29,7 @@ when 'debian', 'ubuntu', 'redhat', 'centos', 'fedora', 'scientific', 'amazon', '
       :ssl => node['newrelic']['server_monitoring']['ssl'],
       :ssl_ca_bundle => node['newrelic']['server_monitoring']['ssl_ca_bundle'],
       :ssl_ca_path => node['newrelic']['server_monitoring']['ssl_ca_path'],
-      :hostname => node['newrelic']['server_monitoring']['hostname'],
+      :hostname => node['newrelic']['server_monitoring']['php-app1'],
       :pidfile => node['newrelic']['server_monitoring']['pidfile'],
       :collector_host => node['newrelic']['server_monitoring']['collector_host'],
       :timeout => node['newrelic']['server_monitoring']['timeout']
